@@ -4,14 +4,14 @@
     <!-- DEVELOPER: Brian Balthazar, IS117-002, Spring 2021 -->
     <meta charset="UTF-8">
     <title>Brian's Portfolio Contact Page</title>
-    <link rel="stylesheet"
+    <link crossorigin="anonymous"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-          crossorigin="anonymous">
+          rel="stylesheet">
     <link href="../css/main.css" rel="stylesheet">
     <!-- Download Font Awesome -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="icon" href="../images/briefcase.png">
+    <link href="../images/briefcase.png" rel="icon">
 </head>
 <body>
 <div class="container-fluid">
@@ -51,38 +51,30 @@
                     </li>
                 </ul>
             </div>
-            <!-- Search bar -->
-            <div class="input-group rounded col-3 mw-100">
-                <input aria-describedby="search-addon" aria-label="Search" class="form-control rounded"
-                       placeholder="Search"
-                       type="search"/>
-                <span class="input-group-text border-0" id="search-addon">
-                <i class="fa fa-search"></i>
-                </span>
-            </div>
         </nav>
 
     </div>
-    <div class="offset-1">
-    <p class="text-center text-primary">Feel free to send me your name so we can get in contact! <i class="fa fa-envelope"></i></p>
-    <div class="container">
-    <div class="row">
-        <form action="">
-            <div class="form-group">
-                <label for="firstname">First Name:</label>
-                <input type="text" class="form-control" id="firstname"
-                       placeholder="First name" name="firstname">
-            </div>
-            <div class="form-group">
-                <label for="lastname">Last Name:</label>
-                <input type="text" class="form-control" id="lastname"
-                       placeholder="Last name" name="lastname">
-            </div>
+    <div>
+        <p class="text-center text-primary">Feel free to send me your name so we can get in contact! <i
+                class="fa fa-envelope"></i></p>
+        <div class="container offset-1">
+            <div class="row">
+                <form action="">
+                    <div class="form-group">
+                        <label for="firstname">First Name:</label>
+                        <input class="form-control" id="firstname" name="firstname"
+                               placeholder="First name" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Last Name:</label>
+                        <input class="form-control" id="lastname" name="lastname"
+                               placeholder="Last name" type="text">
+                    </div>
 
-            <button type="submit" class="btn btn-dark">Submit&nbsp;<i class="fas fa-badge-check"></i></button>
-        </form>
-    </div>
-    </div>
+                    <button class="btn btn-dark" type="submit">Submit&nbsp;<i class="fas fa-badge-check"></i></button>
+                </form>
+            </div>
+        </div>
     </div>
     <footer class="footer page-footer font-small ">
         <div class="container">
@@ -94,14 +86,14 @@
 </div>
 
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+<script crossorigin="anonymous"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script crossorigin="anonymous"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
