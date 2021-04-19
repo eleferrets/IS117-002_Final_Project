@@ -1,7 +1,24 @@
 /* DEVELOPER: Brian Balthazar, IS117-002, Spring 2021 */
-body {
+/*nav {
     border-style: solid;
     border-width: thin;
+}*/
+.jumbotron{
+    background-image: url("../images/cool.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+
+}
+body {
+    min-width: 400px;
+    background-color: #ebebeb;
+}
+/* Phone portrait */
+@media only screen and (max-width: 479px) {
+    body {
+        font-size: 90%;
+    }
 }
 .footer {
     position: fixed;
