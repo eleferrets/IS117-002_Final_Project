@@ -3,6 +3,9 @@
     border-style: solid;
     border-width: thin;
 }*/
+* {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
 .jumbotron{
     background-image: url("../images/cool.jpg");
     background-size: cover;
