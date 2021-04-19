@@ -4,7 +4,11 @@
     border-width: thin;
 }*/
 * {
-    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-family: "Playfair Display", Georgia, "Noto Sans", "Times New Roman", serif;
+}
+.myborder {
+    border-style: solid;
+    border-width: thin;
 }
 .jumbotron{
     background-image: url("../images/cool.jpg");
