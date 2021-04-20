@@ -20,6 +20,11 @@
     height: 15vw;
     object-fit: cover;
 }
+.picture {
+    width: 20vh;
+    height: 15vw;
+    object-fit: cover;
+}
 
 body {
     min-width: 400px;
