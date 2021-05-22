@@ -12,8 +12,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-
-    animation: slide 30s ease-in-out infinite;
+    /* Increasing the amount of seconds makes the scrolling slower. */
+    animation: slide 35s ease-in-out infinite;
     background-position-y: 0%;
     background-repeat-y: repeat;
 }
